@@ -1,0 +1,20 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=279
+
+This plugin provides a more easy to use interface for the Vim session
+feature.
+
+I wrote it first only for my own needs. I have a bunch of small
+projects lying around on my hard disk. I would like to load a whole
+project, play around with it, switch to another if I like, or simply
+unload it.
+
+This plugin provide a menu system for 'Load', 'Unload' 'Switch to' a
+project(session). None-menu-driven version is not available at the
+moment.
+
+This version is for Linux only. I am still struggling to get a Win32 version done.
+
+A screenshot (333879 in size) at:
+http://www.geocities.com/wzhliang/vim/image/fullscreen1.png
+
+

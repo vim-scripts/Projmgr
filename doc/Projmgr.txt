@@ -1,0 +1,38 @@
+*Projmgr.txt* Plugin for loading/unloading/switching Vim sessions
+
+This plugin provides a more easy to use interface for the Vim session
+feature.
+
+I wrote it first only for my own needs. I have a bunch of small
+projects lying around on my hard disk. I would like to load a whole
+project, play around with it, switch to another if I like, or simply
+unload it.
+
+This plugin provide a menu system for 'Load', 'Unload' 'Switch to' a
+project(session). None-menu-driven version is not available at the
+moment. 
+
+Install:
+1. Copy the projmgr.vim into your plugin directory or
+   $HOME/.vim/plugin.
+2. Copy the perl script to somewhere. E.g plugin/perl.
+3. Copy this documentation into the corresponding doc directory.
+4. Make a directory: $HOME/.vim/projects
+5. Modify the script and change "/.vim/plugin/perl/buffers.pl" to
+   where you put the perl script. (I know I know, I will try to figure
+   out a way to do these automatically. You are more than welcomed to
+   tell me if you know how.)
+
+Usage:
+Once it is installed, a menu 'Projects' will appear in your Vim
+window. Load all your project file, define your view, folding etc. (Or
+you can load a session file altogether.) And use the 'Projects->Save
+to Project' to save a session. The file will be save at
+$HOME/.vim/projects/. (You can copy your vim session file directly
+into that directory if you want.) After that, 'Projects->Load-> will
+load that project. Obviously enough, 'Unload' will unload all buffers
+for that project and you can switch between projects.
+
+Known bug:
+1. If the number of files in the projects directory goes down for some reason,
+   the 'refresh' menu won't remove the obsolute items.
