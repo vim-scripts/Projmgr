@@ -1,9 +1,9 @@
 #!/usr/bin/perl
 ###############################################################################
-## file:        $RCSfile: buffers.pl,v $ $Revision: 1.2 $
+## file:        $RCSfile: buffers.pl,v $ $Revision: 1.3 $
 ## module:      @MODULE@
 ## authors:     YOURNAME
-## last mod:    $Author: wliang $ at $Date: 2002/04/20 17:37:49 $
+## last mod:    $Author: wliang $ at $Date: 2002/04/25 23:46:17 $
 ##
 ## created:     Thu Apr 18 21:55:05 2002
 ##
@@ -35,7 +35,7 @@ sub BufferList
 #$retVal = $retVal . $currentPath . $1 . "\n";
 #}
 
-      if ( /^badd\s+\+\d\s+(.*)/ )
+      if ( /^badd\s+\+\d+\s+(.*)/ )
       {
          $retVal = $retVal . $currentPath . $1 . "\n";
       }
